@@ -28,12 +28,13 @@
     ></script>
     <script src="app.js" defer></script>
     <nav>
-      <h1>ZACH MARZOUK</h1>
+      <h1>Zach Marzouk</h1>
       <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">My Skills</a></li>
+        <li><a href="#projects" class="nav-link">My Projects</a></li>
+        <li><a href="#articles" class="nav-link">My Articles</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
         <ion-icon name="menu-outline"></ion-icon>
@@ -48,14 +49,27 @@
       />
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">Something something about me</p>
+        <p class="bio-text">
+          I'm a enthusiastic Software Developer keen to delve deeper into the
+          tech world and continue my development journey.
+        </p>
       </div>
     </section>
     <section class="more-about">
       <h2>More about me</h2>
-      <p>MORE ABOUT ME HERE</p>
-      <p>MORE CAN GO HERE TOO</p>
-      <p>MoORE EVEBN HERE TOO</p>
+      <p>
+        I'm a former B2B tech writer who decided to dive even deeper into the
+        industry and become a Software Developer.
+      </p>
+      <p>
+        This is something that has always fascinated me and I find it very
+        satisfying to connect the pieces of the puzzle and understand how
+        everything works, not only in the back-end but the front-end too.
+      </p>
+      <p>
+        I'm always looking to learn new things and jump at the opportunity to
+        try my hand at new technologies to add to my tech stack.
+      </p>
     </section>
     <section class="skills" id="skills">
       <h2 class="skill-header">My skills</h2>
@@ -125,13 +139,17 @@
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Xpensio: Make your expenses easy</h3>
+          <h3 class="project-title">Xpensio: Track your expenses</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            As part of a team, I helped to create a expense tracking mobile app.
+            It was built using React Native, React Native Paper, and Firebase.
           </p>
-          <a href="#" target="_blank" class="project-link">Take a look</a>
+          <a
+            href="https://github.com/zamarz/expense-tracker"
+            target="_blank"
+            class="project-link"
+            >Take a look</a
+          >
         </div>
         <div class="project-container project-card">
           <img
@@ -142,22 +160,92 @@
           />
           <h3 class="project-title">NC News: Get all the latest news</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            I created a mock news collection website. This was my first project
+            and is built using React, React Bootstrap, and PSQL.
           </p>
-          <a href="#" target="_blank" class="project-link">See for yourself</a>
+          <a
+            href="https://github.com/zamarz/Northcoders_News"
+            target="_blank"
+            class="project-link"
+            >See for yourself</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="articles" id="articles">
+      <h2 class="articles-title">A selection of my articles</h2>
+      <div class="articles-container">
+        <div class="article-container article-card">
+          <img
+            src="assets/images/Japan_image_unsplash.jpg"
+            alt="An image of a mountain in Japan"
+            loading="lazy"
+            class="article-pic"
+          />
+          <h3 class="article-title">Why does Japan lag behind on startups?</h3>
+          <p class="article-details">
+            The country has a reputation as a tech leader, but its startup
+            ecosystem has yet to achieve its potential
+          </p>
+          <a
+            href="https://www.itpro.com/business-strategy/startups/361311/why-does-japan-lag-behind-on-startups"
+            target="_blank"
+            class="article-link"
+            >Read</a
+          >
+        </div>
+        <div class="article-container article-card">
+          <img
+            src="assets/images/Typing_Unsplash.jpg"
+            alt="An image of a person typing on a laptop"
+            loading="lazy"
+            class="article-pic"
+          />
+          <h3 class="article-title">
+            With AI on the rise, is it time to join a union?
+          </h3>
+          <p class="article-details">
+            Workplace challenges posed by new technology could be answered by
+            very traditional solutions
+          </p>
+          <a
+            href="https://www.itpro.com/technology/artificial-intelligence-ai/359765/with-ai-on-the-rise-is-it-time-to-join-a-union"
+            target="_blank"
+            class="article-link"
+            >Read</a
+          >
+        </div>
+        <div class="article-container article-card">
+          <img
+            src="assets/images/imgix_data_centre.jpg"
+            alt="An image of inside a data centre"
+            loading="lazy"
+            class="article-pic"
+          />
+          <h3 class="article-title">
+            Why Frankfurt is clamping down on data center sprawl
+          </h3>
+          <p class="article-details">
+            Frankfurt’s package of data center regulations could be a model for
+            FLAP-D cities and other territories across the world
+          </p>
+          <a
+            href="https://www.itpro.com/infrastructure/data-centres/why-frankfurt-is-clamping-down-on-data-center-sprawl"
+            target="_blank"
+            class="article-link"
+            >Read</a
+          >
         </div>
       </div>
     </section>
     <section class="contact" id="contact">
-      <h2>Get in touch with me</h2>
-      <p class="project-details">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione
-        vel inventore labore commodi modi quos culpa aut saepe! Alias!
-      </p>
+      <h2>
+        Got any questions?
+        <a href="mailto:zachmarzouk@gmail.com" target="_blank">Contact me</a>
+      </h2>
+
       <div class="socials">
-        <a href="#" target="_blank">
+        <a href="https://uk.linkedin.com/in/zachmarzouk" target="_blank">
           <img
             src="assets/icons/icons8-linkedin.svg"
             alt="LinkedIn icon"
@@ -165,7 +253,7 @@
             class="socicon"
           />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://github.com/zamarz" target="_blank">
           <img
             src="assets/icons/icons8-github.svg"
             alt="Github icon"
