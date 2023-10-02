@@ -55,9 +55,11 @@ nav ul {
   margin: auto;
 }
 
-.hero img {
+.hero-img {
+  padding-top: 1%;
   height: 37.5rem;
   width: 37.5rem;
+  border-radius: 50%;
 }
 
 .bio {
