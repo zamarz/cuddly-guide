@@ -300,14 +300,17 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: auto;
+    max-width: 100%;
     border-radius: 50%;
-    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    margin-top: 40px;
   }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: 0.2%;
     width: 20.5rem;
   }
 
@@ -348,14 +351,22 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: auto;
+    width: 100%;
     border-radius: 50%;
-    padding-top: 1%;
+    padding: 10%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
   }
 
   .bio {
     width: 18.3rem;
+    margin-top: 2px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .project-container {
