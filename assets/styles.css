@@ -302,6 +302,8 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 30rem;
+    border-radius: 50%;
+    padding-top: 1%;
   }
 
   .bio {
@@ -335,15 +337,21 @@ footer {
     width: 20.875rem;
   }
 
-  /* .contact-form-container {
-    max-width: 23.75rem;
-  } */
+  .articles-container {
+    flex-direction: column;
+  }
+
+  .article-container {
+    width: 20.875rem;
+  }
 }
 
 @media screen and (max-width: 420px) {
   .hero img {
     height: 37.5rem;
     width: 23rem;
+    border-radius: 50%;
+    padding-top: 1%;
   }
 
   .bio {
@@ -353,8 +361,4 @@ footer {
   .project-container {
     width: 17.875rem;
   }
-
-  /* .contact-form-container {
-    max-width: 17.75rem;
-  } */
 }
