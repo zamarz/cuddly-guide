@@ -338,6 +338,7 @@ footer {
 
   .project-container {
     width: 20.875rem;
+    padding-bottom: 80px;
   }
 
   .articles-container {
@@ -346,6 +347,7 @@ footer {
 
   .article-container {
     width: 20.875rem;
+    padding-bottom: 80px;
   }
 }
 
